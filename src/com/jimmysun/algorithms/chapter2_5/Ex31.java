@@ -19,7 +19,7 @@ public class Ex31 {
 			Arrays.sort(a);
 			for (int j = 1; j < a.length; j++) {
 				if (a[j - 1] != a[j]) {
-					count++;
+					count++;   //题目描述的不是重复值的个数吗，这里的代码计算的应该是非重复值的个数吧？
 				}
 			}
 		}
